@@ -21,21 +21,24 @@
   border-radius: 5px;
 }
 
-/* .followers{
+
+.followers{
   display: flex;
   flex-wrap: wrap;
-} */
+  width: 600px;
+  /* border: 2px solid black; */
+}
 .card2{
-  width: 250px;
-  height: 340px;
+  width: 180px;
+  height: 250px;
   background: lightgray;
-  margin: 10px;
+  margin: 5px;
   border-radius: 5px;
   border: 2px solid black;
 }
 
 .img2{
-  width: 206px;
+  width: 136px;
   height: auto;
   border-radius: 5px;
 }
