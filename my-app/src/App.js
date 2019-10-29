@@ -8,7 +8,25 @@ import ReactDOM from "react-dom";
 class App extends React.Component {
 
 
-  
+  constructor(){
+    super()
+    this.state = {
+      user1: {},
+      followers:[]
+    };
+  }
+
+  componentDidMount() {
+axios
+    .get('')
+    .then(res => {
+      this.setState({
+        user1: res.data
+      })
+    })
+    .catch(err => console.log(err));
+
+  }
 
 render() {
   return (
