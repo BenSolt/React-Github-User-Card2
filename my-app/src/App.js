@@ -33,6 +33,8 @@ render() {
   return (
     <div className="App">
       <h1>Github-User Card</h1>  
+      <UserCard userC={this.state.user1}/>
+
 
 
 
