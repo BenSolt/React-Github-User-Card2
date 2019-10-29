@@ -2,7 +2,7 @@
   text-align: center;
 }
 
-.App-logo {
+/* .App-logo {
   height: 40vmin;
 }
 
@@ -19,4 +19,48 @@
 
 .App-link {
   color: #09d3ac;
+} */
+
+.cardholder{
+  display: flex;
+  width: auto;
+  height: auto;
+ 
+  padding: 5px;
 }
+
+.card1{
+  width: 300px;
+  height: 450px;
+  background: lightgray;
+  margin: 10px;
+  border-radius: 5px;
+  border: 2px solid black;
+}
+
+.card2{
+  width: 300px;
+  height: 450px;
+  background: lightgray;
+  margin: 10px;
+  border-radius: 5px;
+  border: 2px solid black;
+}
+
+.img{
+  width: 256px;
+  height: auto;
+  border-radius: 5px;
+}
+
+ /* .followers{
+ background:rgb(165, 165, 165);
+ border-radius: 5px;
+}  */
+
+
+
+
+
+
+
