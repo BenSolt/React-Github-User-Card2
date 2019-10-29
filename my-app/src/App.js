@@ -4,6 +4,7 @@ import './App.css';
 
 import axios from 'axios';
 import ReactDOM from "react-dom";
+import UserCard from './UserCard';
 
 class App extends React.Component {
 
@@ -18,7 +19,7 @@ class App extends React.Component {
 
   componentDidMount() {
 axios
-    .get('')
+    // .get('https://api.github.com/users/BenSolt')
     .then(res => {
       this.setState({
         user1: res.data
