@@ -10,8 +10,8 @@ const UserCard = (props) => {
         <div className="cardholder">
             <div className='card1'>
                 <h1>{props.userC.name}</h1>
-                <img className='img' src={props.userC.avatar_url} alt='user Image'/>
-                <h2>{props.userC.bio}</h2>
+                <img className='img1' src={props.userC.avatar_url} alt='user Image'/>
+                <h4>{props.userC.bio}</h4>
 
             </div>
 
@@ -23,7 +23,7 @@ const UserCard = (props) => {
                 {props.followersC.map(follower =>
                     <div className='card2' key={follower.id}>
                         <h1>{follower.login}</h1>
-                        <img className='img' src={follower.avatar_url} alt='user Image'/>
+                        <img className='img2' src={follower.avatar_url} alt='user Image'/>
                     </div> 
                      )}
             </div>
